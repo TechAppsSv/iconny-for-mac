@@ -52,7 +52,7 @@ function createWindow () {
     minHeight:800,
     titleBarStyle: 'hidden',
     trafficLightPosition: { x: 10, y: 10 },
-    transparent: true,
+    // transparent: true,
 
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
