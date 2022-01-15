@@ -1,7 +1,7 @@
 {
 	"name": "iconny",
 	"productName": "Iconny for Mac",
-	"version": "21.6.4",
+	"version": "21.7.4",
 	"description": "El Iconny para Mac",
 	"main": "src/munich/init/init.js",
 	"scripts": {
