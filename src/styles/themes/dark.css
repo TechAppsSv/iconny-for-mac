@@ -9,7 +9,25 @@
 }
 .book {
    background: #3D4141;
-   padding-left:22%; width: 75px; height: 10vh; border-radius: 20%;
+   padding-left:10%; width: 75px; height: 10vh; border-radius: 20%;
+}
+.book2 {
+  background: #3D4141;
+  padding-left:8%; width: 83px; height: 13vh; border-radius: 20%;
+}
+
+#letter {
+  color: white;
+}
+.btn:focus {
+ color: white;
+}
+#panelcontrol{
+  background: #363a3a;
+  height: 25vh;
+  text-align: center  ;
+  font-family: 'Rubik', sans-serif;
+  color: white;
 }
 .fas fa-code-branch {
 color: black;
@@ -208,6 +226,7 @@ background: #303434;
               }
               .buttonkit{
                 background: #303434;
+                border: #303434;
                 color: rgb(190, 195, 197);
                 border-radius: 5px;
                height: 5vh;

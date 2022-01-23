@@ -78,6 +78,9 @@ function createNewProductWindow() {
     minHeight:800,
     title: 'SpotFinder',
   
+    titleBarStyle: 'hidden',
+    trafficLightPosition: { x: 10, y: 10 },
+  
     
    webPreferences: {
     contextIsolation:true,

@@ -14,6 +14,25 @@
 .fas fa-code-branch {
 color: black;
 }
+.book2 {
+  background: rgb(225, 228, 227);
+
+  padding-left:8%; width: 83px; height: 13vh; border-radius: 20%;
+}
+
+#letter {
+  color: rgb(0, 0, 0);
+}
+.btn:focus {
+ color: rgb(0, 0, 0);
+}
+#panelcontrol{
+  background: rgba(239 242 241);
+  height: 25vh;
+  text-align: center  ;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(0, 0, 0);
+}
 .dropdown {
 position: relative;
 display: inline-block;
@@ -196,6 +215,8 @@ color: black;
               }
               .buttonkit{
                 background-color: rgba(255, 255, 255, 0.3);
+                border: rgba(255, 255, 255, 0.3);
+
                 color: rgb(135, 135, 135);
                 border-radius: 5px;
                height: 5vh;
