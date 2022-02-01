@@ -22,7 +22,7 @@
                 tabID++;
                 $('#tab-list').append($('<li style="height:30px; margin:2px;"><a href="#tab' + tabID + '" role="tab" data-toggle="tab" id="tabsecond" >New Tab ' + tabID + '<button style="width: 1px; height: 1px; :relative;" class="close" type="button" title="Remove this page"><i class="bi bi-x" style="font-size:12px; padding-right:9px;"></i></button></a></a></li>'));
 
-                $('#tab-content').append($('<div class="tab-pane fade" id="tab' + tabID + '">   <webview src="newoptions.html"  style="background: white;" preload="contextual.js"   useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0" allowpopups id="viewtab" ></webview></div>'));
+                $('#tab-content').append($('<div class="tab-pane fade" id="tab' + tabID + '">   <webview src="newoptions.html"  style="background: white;" preload="contextual.js"   useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" allowpopups id="viewtab" ></webview></div>'));
             });
             $('#tab-list').on('click','.close',function(){
                 var tabID = $(this).parents('a').attr('href');
@@ -134,7 +134,7 @@
 font-family: 'Be Vietnam Pro', sans-serif; width: 7%;" size="5">
                        </form> </div> -->
                        
-                  <webview src="../../munich-interface/newtab/newtab.html"  style="background: white;" preload="contextual.js"   useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0 " allowpopups id="view" ></webview>
+                  <webview src="../../munich-interface/newtab/newtab.html"  style="background: white;" preload="contextual.js"   useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" allowpopups id="view" ></webview>
 
                   </div>
             </div>
