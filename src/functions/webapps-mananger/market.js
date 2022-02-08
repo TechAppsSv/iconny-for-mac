@@ -47,35 +47,23 @@ function getTasks() {
     let description = tasks[i].description;
 
     tasksView.innerHTML += `
-    <br>
-    <br>
- 
-   
-    <table class="table"  style="font-family: 'Jost', sans-serif;">
-    <thead>
-      <tr>
- 
-        <th scope="col">Title</th>
-        <th scope="col">Note</th>
-        <th scope="col">URL</th>
-        <th scope="col">Delete</th>
-      </tr>
-    </thead>
-    <tbody>
+
       <tr>
 
         <td>${title}</td>
-        <td>       <textarea name="" id="" cols="30" rows="90" style="height:9vh;" disabled>${description}</textarea></td>
-        <td><a href="${description}" class="btn buttonkit" >Open Link</a></td>
+        <td>
+        <input type="text" readonly class="form-control" style="width:40%; height:4vh;" value=" ${description}">
+
+       </td>
+        <td><a href="${description}" class="btn btn-dark" >Open link</a></td>
+ 
         <td>
         <a href="#" class="btn btn-danger "onclick="deleteTask('${title}')" >Delete Notely</a>
         </td>
 
       </tr>
 
-    </tbody>
-  </table>
-      </div>  
+  
  `;
   }
 }

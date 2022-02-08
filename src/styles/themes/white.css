@@ -9,7 +9,7 @@
 }
 .book {
   background: rgb(255, 255, 255);
-  padding-left:17.5%; width: 70px; height: 9vh; border-radius: 20%;
+  padding-left:17.5%; width: 70px; height: 70px; border-radius: 20%;
 }
 .fas fa-code-branch {
 color: black;
